@@ -3,8 +3,8 @@ body{
     background: url(/Imagenes/fondo.jpg);
     background-size: cover;
     height: 100%;
-  background-repeat:no-repeat;
-  background-position: center center;
+    background-repeat:no-repeat;
+    background-position: center center;
 }
 label, span{
     color: white;

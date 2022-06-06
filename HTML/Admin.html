@@ -3,27 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/EstiloLogin.css">
     <link rel="shortcut icon" href="/Imagenes/logo.ico" type="image/x-icon">
-    <title>Bienvenido Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/CSS/admin.css">
+    <script src="/JS/Funcionalidad.JS" defer></script>
+    <title>Administrador</title>
 </head>
 <body>
-    <div style="text-align: center;">
-        <h1>Tabla de los empleados</h1>
-        <button  onclick="mostrar1()">Ocultar</button>
-        <button  onclick="ocultar1()">Mostrar</button>
-        <div class="frame_nov" id="frame1">
-            <iframe src="tablaEmpl.html" class="tabla_novedad"></iframe>
+    <div class="menu-dashboard open">
+        <!--TOP MENU-->
+        <div class="top-menu">
+            <div class="logo">
+                <img src="/Imagenes/logo.png" alt="">
+                <span>Operaciones</span>
+            </div>
+            <div class="toggle">
+                <i class='bx bx-menu'></i>
+            </div>
         </div>
-        <h1>Tabla de las novedades de los empleados</h1>
-        <button  onclick="mostrar2()">Ocultar</button>
-        <button  onclick="ocultar2()">Mostrar</button>
-        <div class="frame_emple" id="frame2">
-            <iframe src="TablaNovedad.html" class="tabla_emple"></iframe>
+        <!--Input Search-->
+        <div class="input-search">
+            <i class='bx bx-search-alt' ></i>
+            <input type="text" class="input" placeholder="Buscar">
+        </div>
+        <!--Menu-->
+        <div class="menu">
+            <div class="enlace">
+                <i class='bx bxs-briefcase' ></i>
+                <span>Empleado</span>
+            </div>
+            
+            <div class="enlace">
+                <i class='bx bxs-user'></i>
+                <span>Cliente</span>
+            </div>
+            
+            <div class="enlace">
+                <i class='bx bxs-book-open' ></i>
+                <span>Libros</span>
+            </div>
+            
+            <div class="enlace">
+                <i class='bx bx-movie' ></i>
+                <span>Peliculas</span>
+            </div>
+            
+            <div class="enlace">
+                <i class="bx bx-data"></i>
+                <span>Datos</span>
+            </div>
         </div>
     </div>
-    <script src="/JS/Funcionalidad.JS"></script>
 </body>
 </html>
