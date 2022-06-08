@@ -24,7 +24,7 @@ mandar al repositorio lo que tengas:
 * git push
 
 actualizar repositorio:
-git pull
+* git pull
 
 revisar que rama estas:
 * git branch
