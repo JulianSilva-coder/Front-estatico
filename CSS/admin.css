@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200&display=swap');
-
 *{
     margin: 0%;
     padding: 0%;
@@ -8,11 +7,6 @@
 
 body{
     font-family: 'Monserrat', sans-serif;
-    background: url(/Imagenes/fondo.jpg);
-    background-size: cover;
-    height: 100%;
-    background-repeat:no-repeat;
-    background-position: center center;
     color: #E0E0E0;
 }
 

@@ -14,15 +14,30 @@
                     </div>
                     <!--Login-->
                     <form action="#">
-                        <div class="mb-4">
+                        <div class="d-grid">
+                            <h2 style="color: white; text-align: center;">Seleccione su cargo con el que desea registrarse</h2>
                             <label for="email" class="form-label">Nombre Completo</label>
-                            <input type="text" class="form-control" name="nombre_completo">
+                            <input type="text" class="form-control" name="email">
+                            <label for="email" class="form-label">Apellido Completo</label>
+                            <input type="text" class="form-control" name="email">
+                            <label for="email" class="form-label">Nombre de usuario</label>
+                            <input type="text" class="form-control" name="email">
+                            <label for="email" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="email">
+                            <br>
                         </div>
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-primary">registrarse</button>
+                        <label for="email" class="form-label">Categoria</label>
+                        <div class="select">
+                            <select>
+                                <option>Cliente</option>
+                                <option>Empleado</option>
+                                <option>Administrador</option>
+                            </select>
                         </div>
-                        <br>
+                        <br><br>
                         <div class="d-grid">
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                            <br>
                             <button type="button" class="btn btn-primary" onclick="volver()">Volver</button>
                         </div>
                     </form>    
